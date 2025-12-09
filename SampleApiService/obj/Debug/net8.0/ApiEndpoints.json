@@ -1,0 +1,90 @@
+[
+  {
+    "ContainingType": "SampleApiService.Controllers.LoginController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Login/ChangePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SampleApiService.Models.ChangePasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SampleApiService.Controllers.LoginController",
+    "Method": "GetEmail",
+    "RelativePath": "api/Login/GetEmail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SampleApiService.Models.EmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SampleApiService.Controllers.LoginController",
+    "Method": "GetVersion",
+    "RelativePath": "api/Login/GetVersion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SampleApiService.Controllers.LoginController",
+    "Method": "LoginProcess",
+    "RelativePath": "api/Login/LoginProcess",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SampleApiService.Models.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SampleApiService.Controllers.MobileController",
+    "Method": "GetVersion",
+    "RelativePath": "api/Mobile/GetVersion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SampleApiService.Controllers.MobileController",
+    "Method": "Hello",
+    "RelativePath": "api/Mobile/Hello",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SampleApiService.Controllers.MobileController",
+    "Method": "Hi",
+    "RelativePath": "api/Mobile/Hi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

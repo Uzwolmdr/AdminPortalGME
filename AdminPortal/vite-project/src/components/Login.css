@@ -1,0 +1,362 @@
+/* ===========================================
+   MAIN LAYOUT WRAPPER
+=========================================== */
+.login-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    overflow: visible;
+    position: relative;
+}
+
+/* ===========================================
+   TOP LEFT LOGO
+=========================================== */
+.gme-logo {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.gme-logo-image {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* ===========================================
+   SPLIT LAYOUT
+=========================================== */
+.login-split-layout {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* ===========================================
+   LEFT PANEL � DARK 3D GRAPHIC
+=========================================== */
+.login-left-panel {
+    width: 50%;
+    background: #0a0a0a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.gme-3d-graphic {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: float3D 6s ease-in-out infinite;
+    position: relative;
+}
+
+@keyframes float3D {
+    0%, 100% {
+        transform: translateY(0) rotateY(0deg);
+    }
+
+    50% {
+        transform: translateY(-20px) rotateY(5deg);
+    }
+}
+
+.gme-layer {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.layer-top {
+    background: linear-gradient(135deg, #2d3748, #1a202c);
+    transform: translateZ(40px);
+    z-index: 3;
+}
+
+.layer-middle {
+    background: linear-gradient(135deg, #1e3a5f, #0f1b2e);
+    transform: translateZ(20px);
+    top: 12px;
+    left: 12px;
+    z-index: 2;
+}
+
+.layer-bottom {
+    background: linear-gradient(135deg, #2d3748, #1a202c);
+    transform: translateZ(0);
+    top: 24px;
+    left: 24px;
+    z-index: 1;
+}
+
+.layer-letter {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #e2e8f0;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+    .layer-letter.orange {
+        color: #ff6b35;
+        text-shadow: 0 2px 15px rgba(255, 107, 53, 0.4);
+    }
+
+.layer-dots {
+    display: flex;
+    gap: 8px;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    background: #4a5568;
+    border-radius: 50%;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+    .dot.orange {
+        background: #ff6b35;
+        box-shadow: 0 0 12px rgba(255, 107, 53, 0.8);
+    }
+
+    .dot:nth-child(2) {
+        animation-delay: 0.3s;
+    }
+
+    .dot:nth-child(3) {
+        animation-delay: 0.6s;
+    }
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: .6;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+/* ===========================================
+   RIGHT PANEL � LOGIN FORM
+=========================================== */
+.login-right-panel {
+    width: 50%;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 80px;
+}
+
+.login-form-container {
+    width: 100%;
+    max-width: 550px;
+    animation: slideInRight 0.6s ease-out;
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.login-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.login-subtitle {
+    font-size: 16px;
+    color: #4a5568;
+    margin-bottom: 40px;
+}
+
+/* ===========================================
+   FORM + INPUTS
+=========================================== */
+.form-group {
+    margin-bottom: 24px;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+/* FIXED ICON ALIGNMENT */
+.input-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px !important;
+    height: 16px !important;
+    opacity: 0.85;
+    pointer-events: none;
+}
+
+/* FIXED INPUT PADDING */
+.form-input {
+    width: 100%;
+    padding: 14px 51px; /* Increased padding */
+    font-size: 15px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+    .form-input:focus {
+        border-color: #DC2626;
+        box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.15);
+    }
+
+/* ===========================================
+   OPTIONS
+=========================================== */
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 30px;
+}
+
+.checkbox-input {
+    width: 18px;
+    height: 18px;
+    accent-color: #DC2626;
+    margin-right: 8px;
+}
+
+.forgot-password-link {
+    color: #DC2626;
+    text-decoration: none;
+}
+
+    .forgot-password-link:hover {
+        text-decoration: underline;
+    }
+
+/* ===========================================
+   BUTTON
+=========================================== */
+.login-button {
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    background: #DC2626;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+    .login-button:hover:not(:disabled) {
+        background: #b91c1c;
+        transform: translateY(-1px);
+    }
+
+    .login-button:disabled {
+        opacity: 0.7;
+        cursor: not-allowed;
+    }
+
+.spinner {
+    width: 18px;
+    height: 18px;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* ===========================================
+   SUPPORT LINK
+=========================================== */
+.support-link-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.support-link {
+    color: #DC2626;
+    text-decoration: none;
+}
+
+    .support-link:hover {
+        text-decoration: underline;
+    }
+
+/* ===========================================
+   RESPONSIVE
+=========================================== */
+@media (max-width: 1024px) {
+    .login-split-layout {
+        flex-direction: column;
+    }
+
+    .login-left-panel,
+    .login-right-panel {
+        width: 100%;
+        min-height: 50vh;
+    }
+
+    .login-right-panel {
+        padding: 40px 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-title {
+        font-size: 28px;
+    }
+
+    .form-input {
+        padding: 12px 14px 12px 50px;
+    }
+
+    .gme-3d-graphic {
+        width: 150px;
+        height: 150px;
+    }
+
+    .gme-layer {
+        width: 100px;
+        height: 100px;
+    }
+
+    .layer-letter {
+        font-size: 36px;
+    }
+}
