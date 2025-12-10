@@ -116,7 +116,7 @@ const ChangePassword = () => {
                 name="oldPassword"
                 value={formData.oldPassword}
                 onChange={handleChange}
-                className="form-input"
+                className="form-input1"
                 placeholder="Enter your old password"
                 required
                 autoComplete="current-password"
@@ -135,7 +135,7 @@ const ChangePassword = () => {
                 name="newPassword"
                 value={formData.newPassword}
                 onChange={handleChange}
-                className="form-input"
+                className="form-input1"
                 placeholder="Enter your new password"
                 required
                 autoComplete="new-password"
@@ -154,7 +154,7 @@ const ChangePassword = () => {
                 name="confirmPassword"
                 value={formData.confirmPassword}
                 onChange={handleChange}
-                className="form-input"
+                className="form-input1"
                 placeholder="Confirm your new password"
                 required
                 autoComplete="new-password"
