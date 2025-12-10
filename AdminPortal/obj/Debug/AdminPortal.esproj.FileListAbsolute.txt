@@ -1,1 +1,2 @@
 D:\SampleApiService\SampleApiService\AdminPortal\obj\Debug\AdminPortal.esproj.CoreCompileInputs.cache
+D:\AdminPortalV2\AdminPortal\SampleApiService\AdminPortal\obj\Debug\AdminPortal.esproj.CoreCompileInputs.cache

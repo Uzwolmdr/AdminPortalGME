@@ -26,6 +26,7 @@ namespace Repository.DapperRepo
         {
             try
             {
+                //Using Dapper to create paramters and pass the input fields filled by the user
                 var parameters = new DynamicParameters();
                 parameters.Add("@Email", email, DbType.String);
                 parameters.Add("@UserCode", userCode, DbType.String);
@@ -33,6 +34,8 @@ namespace Repository.DapperRepo
                 parameters.Add("@Flag", "LoginDetails", DbType.String);
 
                 // Dapper will automatically open the connection if it's closed
+                // Executes the stored procedure and returns a successful response object with status and login fail attempt fields if the login is successful
+                // The execution is async, that means the thread is not blocked and released. On receiving the response, a new thread is used to process further
                 var result = await _db.QueryFirstOrDefaultAsync<LoginResponse>(
                     "SW_PROC_PROFILE",
                     parameters,
@@ -52,6 +55,9 @@ namespace Repository.DapperRepo
         {
             try
             {
+                //Using dappper to add dynamic parameters and call the stored procedure
+                //On successful entering of the correct old password, the response would have values greater than zero
+                // The execution is async, that means the thread is not blocked and released. On receiving the response, a new thread is used to process further
                 var parameters = new DynamicParameters();
                 parameters.Add("@Email", email, DbType.String);
                 parameters.Add("@UserCode", userCode, DbType.String);
@@ -78,6 +84,9 @@ namespace Repository.DapperRepo
         {
             try
             {
+                //Using dappper to add dynamic parameters and call the stored procedure
+                // Email and usercode are sent in parameters and new password is updated for the customer for the respective email and usercode
+                // The execution is async, that means the thread is not blocked and released. On receiving the response, a new thread is used to process further
                 var parameters = new DynamicParameters();
                 parameters.Add("@Email", email);
                 parameters.Add("@UserCode", userCode);
@@ -103,6 +112,8 @@ namespace Repository.DapperRepo
         {
             try
             {
+                //Using Dapper to fetch email after successful login using usercode from the table
+                //No stored procedure is called, and direct inline query is executed without calling any stored procedure
                 var parameters = new DynamicParameters();
                 parameters.Add("@UserCode", userCode);
 
@@ -120,7 +131,5 @@ namespace Repository.DapperRepo
                 throw;
             }
         }
-
-
     }
 }

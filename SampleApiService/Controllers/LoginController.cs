@@ -24,6 +24,7 @@ namespace SampleApiService.Controllers
 
         [HttpPost]
         [Route("LoginProcess")]
+        //This API is used to login from the main home page using Email, usercode and Pasword
         public async Task<IActionResult> LoginProcess([FromBody] LoginRequest request)
         {
             if (request == null)
@@ -37,6 +38,8 @@ namespace SampleApiService.Controllers
 
         [HttpGet]
         [Route("GetVersion")]
+        //This API is used to print the dll version on the footer of each login, profile, dashboard and change password page
+        //Version is present in the bottom left corner
         public async Task<IActionResult> GetVersion()
         {
             _logger.LogDebug("Sample API EndPoint Called to Get Version of Product.");
@@ -50,10 +53,11 @@ namespace SampleApiService.Controllers
 
         [HttpPost]
         [Route("GetEmail")]
+        //This API is used to retrieve the email of the user after successful login and print it in the profile page of the user
         public async Task<IActionResult> GetEmail([FromBody] EmailRequest request)
         {
             _logger.LogDebug("Sample API EndPoint Called to GetEmail.");
-
+            //Retrives email through usercode
             var email = await _profileService.GetEmailByUserCodeAsync(request.UserCode);
 
             return Ok(email);
@@ -61,6 +65,7 @@ namespace SampleApiService.Controllers
 
         [HttpPost]
         [Route("ChangePassword")]
+        //This API is used to change the password of the logged in user using old password from the profile dropdown
         public async Task<IActionResult> ChangePassword([FromBody] ChangePasswordRequest request)
         {
             _logger.LogDebug("ChangePassword request arrived.");
