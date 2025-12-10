@@ -1,6 +1,4 @@
 ﻿using Microsoft.Extensions.Logging;
-using Repository.Connection;
-using Repository.Repo;
 using Dapper;
 using System.Data;
 using System.Threading.Tasks;

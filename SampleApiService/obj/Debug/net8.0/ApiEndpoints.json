@@ -56,35 +56,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SampleApiService.Controllers.MobileController",
-    "Method": "GetVersion",
-    "RelativePath": "api/Mobile/GetVersion",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SampleApiService.Controllers.MobileController",
-    "Method": "Hello",
-    "RelativePath": "api/Mobile/Hello",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SampleApiService.Controllers.MobileController",
-    "Method": "Hi",
-    "RelativePath": "api/Mobile/Hi",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
   }
 ]

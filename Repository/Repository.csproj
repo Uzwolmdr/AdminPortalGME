@@ -8,35 +8,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="Entities\**" />
-    <Compile Remove="Repo\Insurance\**" />
-    <Compile Remove="Repo\Internet\**" />
-    <Compile Remove="Repo\PurseMgt\**" />
-    <Compile Remove="Repo\Ticketing\**" />
-    <Compile Remove="Repo\Tv\**" />
-    <Compile Remove="Repo\UserMgt\**" />
-    <Compile Remove="Repo\Water\**" />
     <EmbeddedResource Remove="Entities\**" />
-    <EmbeddedResource Remove="Repo\Insurance\**" />
-    <EmbeddedResource Remove="Repo\Internet\**" />
-    <EmbeddedResource Remove="Repo\PurseMgt\**" />
-    <EmbeddedResource Remove="Repo\Ticketing\**" />
-    <EmbeddedResource Remove="Repo\Tv\**" />
-    <EmbeddedResource Remove="Repo\UserMgt\**" />
-    <EmbeddedResource Remove="Repo\Water\**" />
     <None Remove="Entities\**" />
-    <None Remove="Repo\Insurance\**" />
-    <None Remove="Repo\Internet\**" />
-    <None Remove="Repo\PurseMgt\**" />
-    <None Remove="Repo\Ticketing\**" />
-    <None Remove="Repo\Tv\**" />
-    <None Remove="Repo\UserMgt\**" />
-    <None Remove="Repo\Water\**" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Remove="Repo\IReportRepoService.cs" />
-    <Compile Remove="Repo\IUtilityRepoService.cs" />
-    <Compile Remove="Repo\ReportRepoService.cs" />
-    <Compile Remove="Repo\UtilityRepoService.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.1.66" />

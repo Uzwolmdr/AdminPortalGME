@@ -7,7 +7,6 @@ using Elastic.Ingest.Elasticsearch.DataStreams;
 using Elastic.Ingest.Elasticsearch;
 using Elastic.Channels;
 using SampleApiService.Services;
-using Repository.Repo;
 using Repository.Config;
 using OcelotGatewayService;
 using MassTransit;
@@ -47,8 +46,6 @@ builder.Services.AddScoped<IDbConnection>(sp =>
 });
 
 // Register your dependency
-builder.Services.AddScoped<IService, Service>();
-builder.Services.AddScoped<IRepoService, RepoService>();
 builder.Services.AddScoped<IProfileService, ProfileService>();
 builder.Services.AddScoped<IProfileRepository, ProfileRepository>();
 
