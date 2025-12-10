@@ -31,6 +31,14 @@ const AvatarDropdown = () => {
     setIsOpen(false);
   };
 
+  const handleLogoutClick = () => {
+    // Clear all localStorage items
+    localStorage.clear();
+    // Redirect to login page
+    navigate('/login');
+    setIsOpen(false);
+  };
+
   return (
     <div className="avatar-dropdown-container" ref={dropdownRef}>
       <div 
@@ -64,6 +72,12 @@ const AvatarDropdown = () => {
               <path d="M12 8V4C12 1.79086 10.2091 0 8 0C5.79086 0 4 1.79086 4 4V8H2V16H14V8H12ZM6 4C6 2.89543 6.89543 2 8 2C9.10457 2 10 2.89543 10 4V8H6V4ZM12 10V14H4V10H12Z" fill="currentColor"/>
             </svg>
             Change Password
+          </div>
+          <div className="dropdown-item" onClick={handleLogoutClick}>
+            <svg className="dropdown-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 14H3C2.44772 14 2 13.5523 2 13V3C2 2.44772 2.44772 2 3 2H6M10 11L14 8M14 8L10 5M14 8H6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+            Logout
           </div>
         </div>
       )}

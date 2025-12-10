@@ -31,7 +31,7 @@
   background-color: #f3f4f6;
 }
 
-.dropdown-item:first-child {
+.dropdown-item:not(:last-child) {
   border-bottom: 1px solid #e5e7eb;
 }
 
