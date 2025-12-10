@@ -463,3 +463,4 @@ D:\AdminPortalV2\AdminPortal\SampleApiService\SampleApiService\obj\Debug\net8.0\
 D:\AdminPortalV2\AdminPortal\SampleApiService\SampleApiService\obj\Debug\net8.0\SampleApiService.pdb
 D:\AdminPortalV2\AdminPortal\SampleApiService\SampleApiService\obj\Debug\net8.0\SampleApiService.genruntimeconfig.cache
 D:\AdminPortalV2\AdminPortal\SampleApiService\SampleApiService\obj\Debug\net8.0\ref\SampleApiService.dll
+D:\AdminPortalV2\AdminPortal\SampleApiService\SampleApiService\bin\Debug\net8.0\SampleApiService.staticwebassets.runtime.json

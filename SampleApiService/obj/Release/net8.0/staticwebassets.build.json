@@ -1,1 +1,743 @@
-{"Version":1,"Hash":"YAXIJ4rBXc33tVFUw41wFhyrPaBnvVAAuQfDra53EE8=","Source":"SampleApiService","BasePath":"_content/SampleApiService","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "G/Gvzfae5HfdsH/4uSWfN17fRr2Ux7kRsmUw4w9LblY=",
+  "Source": "SampleApiService",
+  "BasePath": "_content/SampleApiService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SampleApiService\\wwwroot",
+      "Source": "SampleApiService",
+      "ContentRoot": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\",
+      "BasePath": "_content/SampleApiService",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\index-5iMmYoRv.css",
+      "SourceId": "SampleApiService",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\",
+      "BasePath": "_content/SampleApiService",
+      "RelativePath": "assets/index-5iMmYoRv#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0vkj4i4997",
+      "Integrity": "XHx1XlQ4Rd9uuRyad6GRg/ZliQjNNIk3rg41nOkq9vM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-5iMmYoRv.css"
+    },
+    {
+      "Identity": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\index-BIEnZ8Mw.js",
+      "SourceId": "SampleApiService",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\",
+      "BasePath": "_content/SampleApiService",
+      "RelativePath": "assets/index-BIEnZ8Mw#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nvfv08yu2b",
+      "Integrity": "3d36Sdd6CDeFigtPjuM0e7zMTX+ud9TecV9SLQ2aDtA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-BIEnZ8Mw.js"
+    },
+    {
+      "Identity": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\ProfileImage-BuwvytkF.png",
+      "SourceId": "SampleApiService",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\",
+      "BasePath": "_content/SampleApiService",
+      "RelativePath": "assets/ProfileImage-BuwvytkF#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2z3jwidfzm",
+      "Integrity": "3tI1mEwkoARtj1nf5dEmHFGTv4L61iut/U/EwsJ9wkI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\ProfileImage-BuwvytkF.png"
+    },
+    {
+      "Identity": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\GME-LOGO-HD.png",
+      "SourceId": "SampleApiService",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\",
+      "BasePath": "_content/SampleApiService",
+      "RelativePath": "GME-LOGO-HD#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x0c4oc04nl",
+      "Integrity": "HyLCyGyrAiGeQPTwibXnOqWcxrePWhEkwOmpg95EyB0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\GME-LOGO-HD.png"
+    },
+    {
+      "Identity": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\index.html",
+      "SourceId": "SampleApiService",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\",
+      "BasePath": "_content/SampleApiService",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p7jbvpif21",
+      "Integrity": "+2Z4nY5i9hT9194bd5mB+EhFh7oYffhq4MAQLWuPT8A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\ProfileImage.png",
+      "SourceId": "SampleApiService",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\",
+      "BasePath": "_content/SampleApiService",
+      "RelativePath": "ProfileImage#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2z3jwidfzm",
+      "Integrity": "3tI1mEwkoARtj1nf5dEmHFGTv4L61iut/U/EwsJ9wkI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProfileImage.png"
+    },
+    {
+      "Identity": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\vite.svg",
+      "SourceId": "SampleApiService",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\",
+      "BasePath": "_content/SampleApiService",
+      "RelativePath": "vite#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "69kjnsiwqx",
+      "Integrity": "SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\vite.svg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "assets/index-5iMmYoRv.0vkj4i4997.css",
+      "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\index-5iMmYoRv.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18645"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XHx1XlQ4Rd9uuRyad6GRg/ZliQjNNIk3rg41nOkq9vM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 04:02:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0vkj4i4997"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/index-5iMmYoRv.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XHx1XlQ4Rd9uuRyad6GRg/ZliQjNNIk3rg41nOkq9vM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-5iMmYoRv.css",
+      "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\index-5iMmYoRv.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18645"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XHx1XlQ4Rd9uuRyad6GRg/ZliQjNNIk3rg41nOkq9vM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 04:02:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XHx1XlQ4Rd9uuRyad6GRg/ZliQjNNIk3rg41nOkq9vM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-BIEnZ8Mw.js",
+      "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\index-BIEnZ8Mw.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "596257"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3d36Sdd6CDeFigtPjuM0e7zMTX+ud9TecV9SLQ2aDtA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 04:02:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3d36Sdd6CDeFigtPjuM0e7zMTX+ud9TecV9SLQ2aDtA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-BIEnZ8Mw.nvfv08yu2b.js",
+      "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\index-BIEnZ8Mw.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "596257"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3d36Sdd6CDeFigtPjuM0e7zMTX+ud9TecV9SLQ2aDtA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 04:02:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nvfv08yu2b"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/index-BIEnZ8Mw.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3d36Sdd6CDeFigtPjuM0e7zMTX+ud9TecV9SLQ2aDtA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/ProfileImage-BuwvytkF.2z3jwidfzm.png",
+      "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\ProfileImage-BuwvytkF.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3tI1mEwkoARtj1nf5dEmHFGTv4L61iut/U/EwsJ9wkI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 04:02:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2z3jwidfzm"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/ProfileImage-BuwvytkF.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3tI1mEwkoARtj1nf5dEmHFGTv4L61iut/U/EwsJ9wkI="
+        }
+      ]
+    },
+    {
+      "Route": "assets/ProfileImage-BuwvytkF.png",
+      "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\ProfileImage-BuwvytkF.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3tI1mEwkoARtj1nf5dEmHFGTv4L61iut/U/EwsJ9wkI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 04:02:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3tI1mEwkoARtj1nf5dEmHFGTv4L61iut/U/EwsJ9wkI="
+        }
+      ]
+    },
+    {
+      "Route": "GME-LOGO-HD.png",
+      "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\GME-LOGO-HD.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40494"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HyLCyGyrAiGeQPTwibXnOqWcxrePWhEkwOmpg95EyB0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 15:10:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HyLCyGyrAiGeQPTwibXnOqWcxrePWhEkwOmpg95EyB0="
+        }
+      ]
+    },
+    {
+      "Route": "GME-LOGO-HD.x0c4oc04nl.png",
+      "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\GME-LOGO-HD.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40494"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HyLCyGyrAiGeQPTwibXnOqWcxrePWhEkwOmpg95EyB0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 15:10:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x0c4oc04nl"
+        },
+        {
+          "Name": "label",
+          "Value": "GME-LOGO-HD.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HyLCyGyrAiGeQPTwibXnOqWcxrePWhEkwOmpg95EyB0="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+2Z4nY5i9hT9194bd5mB+EhFh7oYffhq4MAQLWuPT8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 04:02:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+2Z4nY5i9hT9194bd5mB+EhFh7oYffhq4MAQLWuPT8A="
+        }
+      ]
+    },
+    {
+      "Route": "index.p7jbvpif21.html",
+      "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+2Z4nY5i9hT9194bd5mB+EhFh7oYffhq4MAQLWuPT8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 04:02:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p7jbvpif21"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+2Z4nY5i9hT9194bd5mB+EhFh7oYffhq4MAQLWuPT8A="
+        }
+      ]
+    },
+    {
+      "Route": "ProfileImage.2z3jwidfzm.png",
+      "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\ProfileImage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3tI1mEwkoARtj1nf5dEmHFGTv4L61iut/U/EwsJ9wkI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 15:20:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2z3jwidfzm"
+        },
+        {
+          "Name": "label",
+          "Value": "ProfileImage.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3tI1mEwkoARtj1nf5dEmHFGTv4L61iut/U/EwsJ9wkI="
+        }
+      ]
+    },
+    {
+      "Route": "ProfileImage.png",
+      "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\ProfileImage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3tI1mEwkoARtj1nf5dEmHFGTv4L61iut/U/EwsJ9wkI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 15:20:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3tI1mEwkoARtj1nf5dEmHFGTv4L61iut/U/EwsJ9wkI="
+        }
+      ]
+    },
+    {
+      "Route": "vite.69kjnsiwqx.svg",
+      "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\vite.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 13:22:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "69kjnsiwqx"
+        },
+        {
+          "Name": "label",
+          "Value": "vite.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs="
+        }
+      ]
+    },
+    {
+      "Route": "vite.svg",
+      "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\vite.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 13:22:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs="
+        }
+      ]
+    }
+  ]
+}

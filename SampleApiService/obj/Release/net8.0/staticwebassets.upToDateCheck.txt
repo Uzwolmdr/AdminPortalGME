@@ -1,0 +1,7 @@
+wwwroot\assets\index-5iMmYoRv.css
+wwwroot\assets\index-BIEnZ8Mw.js
+wwwroot\assets\ProfileImage-BuwvytkF.png
+wwwroot\GME-LOGO-HD.png
+wwwroot\index.html
+wwwroot\ProfileImage.png
+wwwroot\vite.svg

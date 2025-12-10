@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\GME-LOGO-HD.png",
+      "PackagePath": "staticwebassets\\GME-LOGO-HD.png"
+    },
+    {
+      "Id": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\ProfileImage.png",
+      "PackagePath": "staticwebassets\\ProfileImage.png"
+    },
+    {
+      "Id": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\ProfileImage-BuwvytkF.png",
+      "PackagePath": "staticwebassets\\assets\\ProfileImage-BuwvytkF.png"
+    },
+    {
+      "Id": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\index-5iMmYoRv.css",
+      "PackagePath": "staticwebassets\\assets\\index-5iMmYoRv.css"
+    },
+    {
+      "Id": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\index-BIEnZ8Mw.js",
+      "PackagePath": "staticwebassets\\assets\\index-BIEnZ8Mw.js"
+    },
+    {
+      "Id": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\vite.svg",
+      "PackagePath": "staticwebassets\\vite.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SampleApiService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SampleApiService.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SampleApiService.props",
+      "PackagePath": "build\\SampleApiService.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SampleApiService.props",
+      "PackagePath": "buildMultiTargeting\\SampleApiService.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SampleApiService.props",
+      "PackagePath": "buildTransitive\\SampleApiService.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
