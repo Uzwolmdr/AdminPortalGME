@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lbGshz9OjDBUVSz8+Hf9bysmp96f4Jh9iQhdkLbxMRc=",
+  "Hash": "OFN8X5mtOKbcw4XQ4P1d9s6fXjY0Sd8+X6qbZpDPuow=",
   "Source": "SampleApiService",
   "BasePath": "_content/SampleApiService",
   "Mode": "Default",
@@ -157,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "aauqxabmwn",
-      "Integrity": "Lov5rvC71RDySNUW1EwKyrPJx/MqI/XX1YIEhX7h4kg=",
+      "Fingerprint": "eodezrls20",
+      "Integrity": "QiQYuem6aiyyaHD5QV8C1Fv5hfSzbgu0uEYjiPCFQIE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -312,7 +312,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Dec 2025 06:20:45 GMT"
+          "Value": "Wed, 10 Dec 2025 07:20:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -349,7 +349,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Dec 2025 06:20:45 GMT"
+          "Value": "Wed, 10 Dec 2025 07:20:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -476,7 +476,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Dec 2025 06:20:45 GMT"
+          "Value": "Wed, 10 Dec 2025 07:20:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -513,7 +513,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Dec 2025 06:20:45 GMT"
+          "Value": "Wed, 10 Dec 2025 07:20:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -558,7 +558,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Dec 2025 06:20:45 GMT"
+          "Value": "Wed, 10 Dec 2025 07:20:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -603,7 +603,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Dec 2025 06:20:45 GMT"
+          "Value": "Wed, 10 Dec 2025 07:20:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -700,7 +700,7 @@
       ]
     },
     {
-      "Route": "index.aauqxabmwn.html",
+      "Route": "index.eodezrls20.html",
       "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -710,7 +710,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "459"
+          "Value": "456"
         },
         {
           "Name": "Content-Type",
@@ -718,11 +718,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Lov5rvC71RDySNUW1EwKyrPJx/MqI/XX1YIEhX7h4kg=\""
+          "Value": "\"QiQYuem6aiyyaHD5QV8C1Fv5hfSzbgu0uEYjiPCFQIE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Dec 2025 06:20:45 GMT"
+          "Value": "Wed, 10 Dec 2025 07:20:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -732,7 +732,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "aauqxabmwn"
+          "Value": "eodezrls20"
         },
         {
           "Name": "label",
@@ -740,7 +740,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Lov5rvC71RDySNUW1EwKyrPJx/MqI/XX1YIEhX7h4kg="
+          "Value": "sha256-QiQYuem6aiyyaHD5QV8C1Fv5hfSzbgu0uEYjiPCFQIE="
         }
       ]
     },
@@ -755,7 +755,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "459"
+          "Value": "456"
         },
         {
           "Name": "Content-Type",
@@ -763,11 +763,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Lov5rvC71RDySNUW1EwKyrPJx/MqI/XX1YIEhX7h4kg=\""
+          "Value": "\"QiQYuem6aiyyaHD5QV8C1Fv5hfSzbgu0uEYjiPCFQIE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Dec 2025 06:20:45 GMT"
+          "Value": "Wed, 10 Dec 2025 07:20:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -777,7 +777,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Lov5rvC71RDySNUW1EwKyrPJx/MqI/XX1YIEhX7h4kg="
+          "Value": "sha256-QiQYuem6aiyyaHD5QV8C1Fv5hfSzbgu0uEYjiPCFQIE="
         }
       ]
     },

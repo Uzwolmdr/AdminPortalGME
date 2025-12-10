@@ -8,7 +8,6 @@ using Elastic.Ingest.Elasticsearch;
 using Elastic.Channels;
 using SampleApiService.Services;
 using Repository.Config;
-using OcelotGatewayService;
 using MassTransit;
 
 using Microsoft.Data.SqlClient;
@@ -93,8 +92,8 @@ builder.Services.AddMassTransit(x =>
 builder.Host.UseSerilog(); // Use Serilog for the app
 
 // Add Authentication scheme for Basic. It will invalidate DownstreamHeaderTransform
-builder.Services.AddAuthentication("BasicAuth")
-    .AddScheme<AuthenticationSchemeOptions, BasicAuthHandler>("BasicAuth", null);
+//builder.Services.AddAuthentication("BasicAuth")
+//    .AddScheme<AuthenticationSchemeOptions, BasicAuthHandler>("BasicAuth", null);
 
 var allowedClientIds = builder.Configuration.GetSection("AllowedClientIds").Get<List<string>>();
 var app = builder.Build();
@@ -107,8 +106,8 @@ logger.LogDebug("Sample API Service Application started");
 app.UseCors("AllowReactApp");
 
 //
-app.UseMiddleware<CorrelationIdMiddleware>();
-app.UseMiddleware<RequestLoggingMiddleware>();
+//app.UseMiddleware<CorrelationIdMiddleware>();
+//app.UseMiddleware<RequestLoggingMiddleware>();
 app.UseMiddleware<ResponseLoggingMiddleware>();
 app.UseDefaultFiles();
 app.UseStaticFiles();
