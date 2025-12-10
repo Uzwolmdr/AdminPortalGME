@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1KCspBTnuz1p3ButJQW9n9tQ5ckft+ABOma7XUHvTas=",
+  "Hash": "lbGshz9OjDBUVSz8+Hf9bysmp96f4Jh9iQhdkLbxMRc=",
   "Source": "SampleApiService",
   "BasePath": "_content/SampleApiService",
   "Mode": "Default",
@@ -38,6 +38,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-5iMmYoRv.css"
     },
     {
+      "Identity": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\index-BF67IGGU.css",
+      "SourceId": "SampleApiService",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\",
+      "BasePath": "_content/SampleApiService",
+      "RelativePath": "assets/index-BF67IGGU#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "whkkj0auzl",
+      "Integrity": "xLde1ByLIO4gdrVqRyj2hInLlm8OodGSl95OkmNxKdA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-BF67IGGU.css"
+    },
+    {
       "Identity": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\index-BIEnZ8Mw.js",
       "SourceId": "SampleApiService",
       "SourceType": "Discovered",
@@ -57,6 +78,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\index-BIEnZ8Mw.js"
+    },
+    {
+      "Identity": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\index-CB0c1zWH.js",
+      "SourceId": "SampleApiService",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\",
+      "BasePath": "_content/SampleApiService",
+      "RelativePath": "assets/index-CB0c1zWH#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rei98kqg5r",
+      "Integrity": "jcKaREpwPyTU/JgOmY/toJhsXTDkZsDCt71MoNLiOkY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-CB0c1zWH.js"
     },
     {
       "Identity": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\ProfileImage-BuwvytkF.png",
@@ -115,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "p7jbvpif21",
-      "Integrity": "+2Z4nY5i9hT9194bd5mB+EhFh7oYffhq4MAQLWuPT8A=",
+      "Fingerprint": "aauqxabmwn",
+      "Integrity": "Lov5rvC71RDySNUW1EwKyrPJx/MqI/XX1YIEhX7h4kg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -248,6 +290,88 @@
       ]
     },
     {
+      "Route": "assets/index-BF67IGGU.css",
+      "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\index-BF67IGGU.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18894"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xLde1ByLIO4gdrVqRyj2hInLlm8OodGSl95OkmNxKdA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 06:20:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xLde1ByLIO4gdrVqRyj2hInLlm8OodGSl95OkmNxKdA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-BF67IGGU.whkkj0auzl.css",
+      "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\index-BF67IGGU.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18894"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xLde1ByLIO4gdrVqRyj2hInLlm8OodGSl95OkmNxKdA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 06:20:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "whkkj0auzl"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/index-BF67IGGU.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xLde1ByLIO4gdrVqRyj2hInLlm8OodGSl95OkmNxKdA="
+        }
+      ]
+    },
+    {
       "Route": "assets/index-BIEnZ8Mw.js",
       "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\index-BIEnZ8Mw.js",
       "Selectors": [],
@@ -330,6 +454,88 @@
       ]
     },
     {
+      "Route": "assets/index-CB0c1zWH.js",
+      "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\index-CB0c1zWH.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "596712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jcKaREpwPyTU/JgOmY/toJhsXTDkZsDCt71MoNLiOkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 06:20:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jcKaREpwPyTU/JgOmY/toJhsXTDkZsDCt71MoNLiOkY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-CB0c1zWH.rei98kqg5r.js",
+      "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\index-CB0c1zWH.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "596712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jcKaREpwPyTU/JgOmY/toJhsXTDkZsDCt71MoNLiOkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 06:20:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rei98kqg5r"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/index-CB0c1zWH.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jcKaREpwPyTU/JgOmY/toJhsXTDkZsDCt71MoNLiOkY="
+        }
+      ]
+    },
+    {
       "Route": "assets/ProfileImage-BuwvytkF.2z3jwidfzm.png",
       "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\assets\\ProfileImage-BuwvytkF.png",
       "Selectors": [],
@@ -352,7 +558,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Dec 2025 04:02:09 GMT"
+          "Value": "Wed, 10 Dec 2025 06:20:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -397,7 +603,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Dec 2025 04:02:09 GMT"
+          "Value": "Wed, 10 Dec 2025 06:20:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -494,6 +700,51 @@
       ]
     },
     {
+      "Route": "index.aauqxabmwn.html",
+      "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lov5rvC71RDySNUW1EwKyrPJx/MqI/XX1YIEhX7h4kg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 06:20:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aauqxabmwn"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lov5rvC71RDySNUW1EwKyrPJx/MqI/XX1YIEhX7h4kg="
+        }
+      ]
+    },
+    {
       "Route": "index.html",
       "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\index.html",
       "Selectors": [],
@@ -512,11 +763,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+2Z4nY5i9hT9194bd5mB+EhFh7oYffhq4MAQLWuPT8A=\""
+          "Value": "\"Lov5rvC71RDySNUW1EwKyrPJx/MqI/XX1YIEhX7h4kg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Dec 2025 04:02:09 GMT"
+          "Value": "Wed, 10 Dec 2025 06:20:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -526,52 +777,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+2Z4nY5i9hT9194bd5mB+EhFh7oYffhq4MAQLWuPT8A="
-        }
-      ]
-    },
-    {
-      "Route": "index.p7jbvpif21.html",
-      "AssetFile": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\SampleApiService\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "459"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+2Z4nY5i9hT9194bd5mB+EhFh7oYffhq4MAQLWuPT8A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 10 Dec 2025 04:02:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "p7jbvpif21"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-+2Z4nY5i9hT9194bd5mB+EhFh7oYffhq4MAQLWuPT8A="
+          "Value": "sha256-Lov5rvC71RDySNUW1EwKyrPJx/MqI/XX1YIEhX7h4kg="
         }
       ]
     },
