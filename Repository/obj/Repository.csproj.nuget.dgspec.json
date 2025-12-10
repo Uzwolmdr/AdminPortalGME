@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SampleApiService\\SampleApiService\\Repository\\Repository.csproj": {}
+    "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "D:\\SampleApiService\\SampleApiService\\Repository\\Repository.csproj": {
+    "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\Repository\\Repository.csproj": {
       "version": "4.2.1",
       "restore": {
-        "projectUniqueName": "D:\\SampleApiService\\SampleApiService\\Repository\\Repository.csproj",
+        "projectUniqueName": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "D:\\SampleApiService\\SampleApiService\\Repository\\Repository.csproj",
+        "projectPath": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\swift\\.nuget\\packages\\",
-        "outputPath": "D:\\SampleApiService\\SampleApiService\\Repository\\obj\\",
+        "outputPath": "D:\\AdminPortalV2\\AdminPortal\\SampleApiService\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

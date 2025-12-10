@@ -1,7 +1,11 @@
 import { useState, useEffect } from 'react';
 import './DashboardFooter.css';
 
-const API_BASE_URL = 'http://localhost:5099/api';
+// Use environment variable with fallback:
+// - In development mode: use localhost:5099
+// - In production: use relative path /api (for same-domain deployment)
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 
+  (import.meta.env.DEV ? 'http://localhost:5099/api' : '/api');
 
 const DashboardFooter = () => {
   const [version, setVersion] = useState('1.0');

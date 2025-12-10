@@ -1,4 +1,8 @@
-const API_BASE_URL = 'http://localhost:5099/api';
+// Use environment variable with fallback:
+// - In development mode: use localhost:5099
+// - In production: use relative path /api (for same-domain deployment)
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 
+  (import.meta.env.DEV ? 'http://localhost:5099/api' : '/api');
 
 export const loginAPI = async (email, userCode, password) => {
   try {
@@ -40,7 +44,7 @@ export const loginAPI = async (email, userCode, password) => {
     
     // If it's a network error, throw a user-friendly message
     if (error.message === 'Failed to fetch' || error.message.includes('NetworkError') || error.name === 'TypeError') {
-      throw new Error('Unable to connect to the server. Please make sure the API is running on http://localhost:5099');
+      throw new Error('Unable to connect to the server. Please check your API configuration.');
     }
     
     // If we have response data with ResponseDescription, preserve it
@@ -191,7 +195,7 @@ export const changePasswordAPI = async (email, userCode, oldPassword, newPasswor
     
     // If it's a network error, throw a user-friendly message
     if (error.message === 'Failed to fetch' || error.message.includes('NetworkError') || error.name === 'TypeError') {
-      throw new Error('Unable to connect to the server. Please make sure the API is running on http://localhost:5099');
+      throw new Error('Unable to connect to the server. Please check your API configuration.');
     }
     
     // If we have response data with ResponseDescription, preserve it

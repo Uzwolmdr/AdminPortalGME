@@ -21,12 +21,15 @@ MyConfigurationManager.SetConfiguration(builder.Configuration);
 
 builder.Services.AddControllers();
 
-// Add CORS
+// Add CORS - Read allowed origins from configuration
+var allowedOrigins = builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>() 
+    ?? new[] { "http://localhost:5173", "http://localhost:3000", "http://localhost:5174" };
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", policy =>
     {
-        policy.WithOrigins("http://localhost:5173", "http://localhost:3000", "http://localhost:5174")
+        policy.WithOrigins(allowedOrigins)
               .AllowAnyMethod()
               .AllowAnyHeader()
               .AllowCredentials();
