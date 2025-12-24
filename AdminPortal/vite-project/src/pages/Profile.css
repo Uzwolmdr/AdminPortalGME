@@ -178,18 +178,167 @@
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .profile-page {
+    padding: 0 20px;
+    padding-bottom: 80px;
+  }
+
   .details-grid {
     grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .basic-details-section {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-page {
+    padding: 16px;
+    padding-bottom: 80px;
+  }
+
+  .details-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   .user-info-header {
     flex-direction: column;
     align-items: flex-start;
+    gap: 16px;
+    padding: 12px 0;
+  }
+
+  .user-avatar-large {
+    width: 64px;
+    height: 64px;
+  }
+
+  .user-name {
+    font-size: 20px;
+  }
+
+  .user-code {
+    font-size: 14px;
   }
 
   .page-title {
     font-size: 24px;
+  }
+
+  .basic-details-section {
+    padding: 20px;
+  }
+
+  .section-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .detail-item {
+    gap: 6px;
+  }
+
+  .detail-label {
+    font-size: 13px;
+  }
+
+  .detail-value {
+    font-size: 15px;
+  }
+
+  .tab-button {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-page {
+    padding: 12px;
+    padding-bottom: 80px;
+  }
+
+  .profile-header {
+    margin-bottom: 16px;
+  }
+
+  .page-icon-title {
+    gap: 8px;
+  }
+
+  .page-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .page-title {
+    font-size: 20px;
+  }
+
+  .user-info-header {
+    gap: 12px;
+    padding: 10px 0;
+    margin-bottom: 16px;
+  }
+
+  .user-avatar-large {
+    width: 56px;
+    height: 56px;
+  }
+
+  .user-name {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+
+  .user-code {
+    font-size: 13px;
+  }
+
+  .profile-tabs {
+    margin-bottom: 16px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .tab-button {
+    padding: 10px 14px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .basic-details-section {
+    padding: 16px;
+  }
+
+  .section-title {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .details-grid {
+    gap: 16px;
+  }
+
+  .detail-item {
+    gap: 4px;
+  }
+
+  .detail-label {
+    font-size: 12px;
+  }
+
+  .detail-value {
+    font-size: 14px;
+  }
+
+  .empty-state {
+    font-size: 14px;
+    padding: 30px 20px;
   }
 }
 

@@ -4,10 +4,20 @@ import './Dashboard.css';
 
 const Dashboard = () => {
   const [mounted, setMounted] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
     setMounted(true);
+    
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
+
+  const chartHeight = windowWidth <= 480 ? 300 : windowWidth <= 768 ? 350 : 400;
   // Notification data
   const notification = {
     title: "GME Announces First Quarter 2025 Results",
@@ -123,7 +133,7 @@ const Dashboard = () => {
           <h2 className="section-title">Status Wise Number of Transaction</h2>
         </div>
         <div className="chart-container">
-          <ResponsiveContainer width="100%" height={400}>
+          <ResponsiveContainer width="100%" height={chartHeight}>
             <BarChart data={chartData} margin={{ top: 20, right: 30, left: 20, bottom: 60 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
               <XAxis 

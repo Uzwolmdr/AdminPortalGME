@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import './Sidebar.css';
 
-const Sidebar = ({ isOpen }) => {
+const Sidebar = ({ isOpen, onClose }) => {
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -22,6 +22,16 @@ const Sidebar = ({ isOpen }) => {
 
   const isActive = (path) => {
     return location.pathname === path;
+  };
+
+  const handleNavigation = (path) => {
+    if (path) {
+      navigate(path);
+      // Close sidebar on mobile after navigation
+      if (window.innerWidth <= 1024 && onClose) {
+        onClose();
+      }
+    }
   };
 
   return (
@@ -47,7 +57,7 @@ const Sidebar = ({ isOpen }) => {
                 if (item.hasDropdown) {
                   toggleExpand(item.id);
                 } else if (item.path) {
-                  navigate(item.path);
+                  handleNavigation(item.path);
                 }
               }}
             >

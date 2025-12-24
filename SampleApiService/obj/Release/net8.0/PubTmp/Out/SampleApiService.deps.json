@@ -879,8 +879,8 @@
         },
         "runtime": {
           "Repository.dll": {
-            "assemblyVersion": "4.2.1",
-            "fileVersion": "4.2.1"
+            "assemblyVersion": "4.2.1.0",
+            "fileVersion": "4.2.1.0"
           }
         }
       }

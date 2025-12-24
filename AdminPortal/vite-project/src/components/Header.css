@@ -17,6 +17,29 @@
 .header-left {
   display: flex;
   align-items: center;
+  gap: 12px;
+}
+
+.mobile-menu-button {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  color: #4a5568;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-menu-button:hover {
+  background-color: #f3f4f6;
+}
+
+.mobile-menu-button svg {
+  width: 24px;
+  height: 24px;
 }
 
 .gme-logo-header {
@@ -141,13 +164,80 @@
   border-radius: 50%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .mobile-menu-button {
+    display: flex;
+  }
+
   .header-center {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .app-header {
+    padding: 0 16px;
+    height: 56px;
+  }
+
+  .gme-logo-image-header {
+    height: 32px;
+  }
+
+  .header-right {
+    gap: 12px;
+  }
+
+  .header-item {
+    padding: 4px 8px;
   }
 
   .header-text {
     display: none;
+  }
+
+  .notification-badge {
+    font-size: 9px;
+    padding: 1px 5px;
+    min-width: 16px;
+  }
+
+  .avatar {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-header {
+    padding: 0 12px;
+    height: 52px;
+  }
+
+  .gme-logo-image-header {
+    height: 28px;
+  }
+
+  .mobile-menu-button {
+    padding: 6px;
+  }
+
+  .mobile-menu-button svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .header-right {
+    gap: 8px;
+  }
+
+  .header-item {
+    padding: 4px 6px;
+  }
+
+  .avatar {
+    width: 28px;
+    height: 28px;
   }
 }
 

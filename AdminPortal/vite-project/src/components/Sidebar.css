@@ -108,12 +108,64 @@
 
 @media (max-width: 1024px) {
   .sidebar {
+    position: fixed;
     transform: translateX(-100%);
-    transition: transform 0.3s;
+    transition: transform 0.3s ease;
+    z-index: 999;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
   }
 
   .sidebar.open {
     transform: translateX(0);
+  }
+
+  .sidebar-search {
+    padding: 16px;
+  }
+
+  .sidebar-search-input {
+    padding: 8px 32px 8px 10px;
+    font-size: 13px;
+  }
+
+  .sidebar-search-icon {
+    right: 24px;
+  }
+
+  .nav-item {
+    padding: 10px 14px;
+  }
+
+  .nav-label {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 280px;
+  }
+
+  .sidebar-search {
+    padding: 12px;
+  }
+
+  .sidebar-nav {
+    padding: 8px;
+  }
+
+  .nav-item {
+    padding: 10px 12px;
+    margin-bottom: 2px;
+  }
+
+  .nav-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .nav-label {
+    font-size: 13px;
   }
 }
 

@@ -319,6 +319,41 @@
     }
 
 /* ===========================================
+   ALERT MESSAGES
+=========================================== */
+.alert {
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    animation: slideDown 0.3s ease-out;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.alert-error {
+    background-color: #fee;
+    color: #dc2626;
+    border: 1px solid #fcc;
+}
+
+.alert-success {
+    background-color: #f0fdf4;
+    color: #16a34a;
+    border: 1px solid #bbf7d0;
+}
+
+/* ===========================================
    RESPONSIVE
 =========================================== */
 @media (max-width: 1024px) {
@@ -335,28 +370,163 @@
     .login-right-panel {
         padding: 40px 30px;
     }
+
+    .gme-logo {
+        top: 20px;
+        left: 20px;
+    }
+
+    .gme-logo-image {
+        height: 40px;
+    }
+
+    .login-form-container {
+        max-width: 100%;
+    }
+
+    .alert {
+        padding: 12px 14px;
+        font-size: 13px;
+        margin-bottom: 18px;
+    }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
+    .login-right-panel {
+        padding: 30px 20px;
+    }
+
     .login-title {
         font-size: 28px;
     }
 
+    .login-subtitle {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
     .form-input {
         padding: 12px 14px 12px 50px;
+        font-size: 14px;
     }
 
     .gme-3d-graphic {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
     }
 
     .gme-layer {
+        width: 80px;
+        height: 80px;
+    }
+
+    .layer-letter {
+        font-size: 28px;
+    }
+
+    .gme-logo {
+        top: 15px;
+        left: 15px;
+    }
+
+    .gme-logo-image {
+        height: 35px;
+    }
+
+    .form-options {
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+    }
+
+    .forgot-password-link {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-container {
+        min-height: 100vh;
+    }
+
+    .login-left-panel {
+        min-height: 200px;
+        padding: 20px;
+    }
+
+    .login-right-panel {
+        padding: 20px 16px;
+        min-height: auto;
+    }
+
+    .login-title {
+        font-size: 24px;
+        margin-bottom: 6px;
+    }
+
+    .login-subtitle {
+        font-size: 13px;
+        margin-bottom: 24px;
+    }
+
+    .form-input {
+        padding: 12px 12px 12px 48px;
+        font-size: 14px;
+    }
+
+    .input-icon {
+        left: 14px;
+        width: 14px !important;
+        height: 14px !important;
+    }
+
+    .alert {
+        padding: 10px 12px;
+        font-size: 13px;
+        margin-bottom: 16px;
+    }
+
+    .gme-3d-graphic {
         width: 100px;
         height: 100px;
     }
 
+    .gme-layer {
+        width: 70px;
+        height: 70px;
+    }
+
     .layer-letter {
-        font-size: 36px;
+        font-size: 24px;
+    }
+
+    .gme-logo {
+        top: 10px;
+        left: 10px;
+    }
+
+    .gme-logo-image {
+        height: 30px;
+    }
+
+    .login-button {
+        padding: 14px;
+        font-size: 15px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .form-options {
+        margin: 8px 0 24px;
+    }
+
+    .checkbox-label {
+        font-size: 14px;
+    }
+
+    .support-link {
+        font-size: 13px;
     }
 }

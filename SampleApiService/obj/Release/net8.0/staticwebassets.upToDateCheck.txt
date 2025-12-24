@@ -1,4 +1,6 @@
+wwwroot\assets\index-3NLCBvlJ.css
 wwwroot\assets\index-5iMmYoRv.css
+wwwroot\assets\index-B0DM6j8a.js
 wwwroot\assets\index-BF67IGGU.css
 wwwroot\assets\index-BIEnZ8Mw.js
 wwwroot\assets\index-CB0c1zWH.js

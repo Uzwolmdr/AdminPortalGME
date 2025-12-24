@@ -45,7 +45,7 @@ namespace Repository.DapperRepo
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error calling SW_PROC_PROFILE with LoginDetails. Email: {Email}, UserCode: {UserCode}", email, userCode);
-                throw;
+                return null;
             }
         }
 

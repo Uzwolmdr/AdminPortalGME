@@ -2,6 +2,7 @@
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
+  padding: 0;
   padding-bottom: 60px;
 }
 
@@ -253,11 +254,18 @@
   padding: 20px;
   background: #ffffff;
   border-radius: 8px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 @media (max-width: 1024px) {
+  .dashboard-page {
+    padding: 0 20px;
+  }
+
   .metrics-grid {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   .notification-header {
@@ -266,6 +274,196 @@
 
   .notification-date {
     align-self: flex-start;
+  }
+
+  .chart-container {
+    padding: 16px;
+  }
+
+  .chart-container .recharts-wrapper {
+    min-width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard-page {
+    padding: 16px;
+    padding-bottom: 80px;
+  }
+
+  .dashboard-section {
+    padding: 20px;
+    margin-bottom: 24px;
+  }
+
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .section-title {
+    font-size: 18px;
+  }
+
+  .view-all-link {
+    font-size: 13px;
+  }
+
+  .today-button {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+
+  .notification-card {
+    padding: 16px;
+  }
+
+  .notification-logo-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .notification-title {
+    font-size: 15px;
+  }
+
+  .notification-description {
+    font-size: 13px;
+  }
+
+  .notification-date {
+    font-size: 12px;
+  }
+
+  .metric-card {
+    padding: 20px;
+    min-height: 120px;
+  }
+
+  .metric-icon-wrapper {
+    width: 56px;
+    height: 56px;
+  }
+
+  .metric-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .metric-value {
+    font-size: 28px;
+  }
+
+  .metric-label {
+    font-size: 13px;
+  }
+
+  .chart-container {
+    padding: 16px 8px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .chart-container .recharts-wrapper {
+    min-width: 600px;
+  }
+
+  .chart-container .recharts-surface {
+    overflow: visible;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard-page {
+    padding: 12px;
+    padding-bottom: 80px;
+  }
+
+  .dashboard-section {
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+
+  .section-title {
+    font-size: 16px;
+  }
+
+  .notification-card {
+    padding: 12px;
+  }
+
+  .notification-title {
+    font-size: 14px;
+  }
+
+  .notification-description {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .metric-card {
+    padding: 16px;
+    min-height: 100px;
+  }
+
+  .metric-content {
+    gap: 12px;
+  }
+
+  .metric-icon-wrapper {
+    width: 48px;
+    height: 48px;
+  }
+
+  .metric-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .metric-value {
+    font-size: 24px;
+  }
+
+  .metric-label {
+    font-size: 12px;
+  }
+
+  .metric-details-link {
+    font-size: 12px;
+    margin-top: 12px;
+  }
+
+  .chart-container {
+    padding: 12px 8px;
+    margin-top: 16px;
+  }
+
+  .chart-container .recharts-wrapper {
+    min-width: 450px;
+  }
+
+  .chart-container .recharts-surface {
+    overflow: visible;
+  }
+
+  .section-header {
+    gap: 10px;
+  }
+
+  .view-all-link {
+    font-size: 12px;
+  }
+
+  .today-button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  .calendar-icon {
+    width: 14px;
+    height: 14px;
   }
 }
 
